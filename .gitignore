@@ -18,3 +18,5 @@ erl_crash.dump
 .idea
 
 *.iml
+
+node_modules
