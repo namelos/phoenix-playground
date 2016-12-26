@@ -20,6 +20,10 @@ defmodule Namelos.Router do
 
     get "/hello", HelloController, :index
     get "/hello/:messenger", HelloController, :show
+
+    resources "/posts", PostController
+
+    resources "/users", UserController
   end
 
   # Other scopes may use custom stacks.
