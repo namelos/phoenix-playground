@@ -1,5 +1,6 @@
 # App artifacts
 /_build
+/priv/static/js/app.js
 /db
 /deps
 /*.ez
